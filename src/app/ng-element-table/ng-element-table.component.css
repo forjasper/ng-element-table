@@ -1,0 +1,25 @@
+.ng-element-table thead tr {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(211, 202, 221);
+}
+.ng-element-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(211, 202, 221);
+}
+.ng-element-table td, .ng-element-table th {
+    padding: 5px 10px;
+    font-size: 12px;
+    font-family: Verdana;
+    color: rgb(95, 74, 121);
+}
+/* Alternating background colors */
+.ng-element-table tbody tr:nth-child(even) {
+    background: rgb(223, 216, 232)
+}
+.ng-element-table tbody tr:nth-child(odd) {
+    background: #FFF
+}
